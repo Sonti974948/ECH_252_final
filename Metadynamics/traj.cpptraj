@@ -1,0 +1,3 @@
+parm chignolin.prmtop
+trajin md.nc
+trajout md.dcd
