@@ -11,8 +11,10 @@
    b.  
       `nstlim = 2000000 ! perform 2000000 MD steps`  (**You need to make this change according to the question**)  
       `dt = 0.002     ! use time steps of 2fs`  
-      `tempi = 300    ! initial temperature T = 300 K`  
-      `temp0 = 300    ! reference temperature T = 300 K`  (**You need to make this change according to the question**)  
+      `tempi = 300    ! initial temperature T = 300 K`  (**You need to make this change according to the question**)  
+      `temp0 = 300    ! reference temperature T = 300 K`  (**You need to make this change according to the question**)
+
+   Please note that since the simulation is **Isothermal**, **tempi=temp0**
 
    c. `plumed_amber.dat` runs the metadynamics plugin for AMBER using the following command:  
 
